@@ -18,7 +18,7 @@ source software without an income, there are no professional audits of the app y
 
 ## Screenshots
 
-![](Link to an screenshot for this app)
+![](https://invoiceplane.com/assets/img/preview.jpg)
 
 ## Demo
 
