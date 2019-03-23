@@ -6,20 +6,23 @@
 - Add a `LICENSE` file for the package.
 - Edit `README.md` and README_fr.md.
 
-# Example app for YunoHost
+# InvoicePlane for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP)  
-[![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+[![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/invoice)  
+[![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=invoiceplane_ynh)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allow you to install REPLACEBYYOURAPP quickly and simply on a YunoHost server.  
+> *This package allow you to install InvoicePlane quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to know how to install and enjoy it.*
 
 ## Overview
-Quick description of this app.
+Since the start of the project in 2014, InvoicePlane evolved into a software that is used world wide. However, it is
+still developed in our free time, as a hobby. We do your best to fulfill any legal requirements but please note that we
+cannot make sure that the app is working 100% correct. Also, due to the fact that InvoicePlane is a free and open
+source software without an income, there are no professional audits of the app yet.
 
-**Shipped version:** 1.0
+**Shipped version:** 1.5.9
 
 ## Screenshots
 
@@ -27,7 +30,7 @@ Quick description of this app.
 
 ## Demo
 
-* [Official demo](Link to a demo site for this app)
+* https://invoiceplane.com/demo
 
 ## Configuration
 
