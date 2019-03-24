@@ -17,7 +17,7 @@ br.set_handle_robots( False )
 br.addheaders = [('User-agent', 'Firefox')]
 
 # Retrieve the instlation page
-br.open( "http://"+path+"/install/installer.php" )
+br.open( "http://"+path+"/index.php/setup" )
 
 # Page 1 - requirement checks
 br.select_form(nr=0)
@@ -29,9 +29,9 @@ br.submit()
 
 # Page 3 - database configuration
 br.select_form(nr=0)
-br.form["install_dbuser"] = "galette"
+br.form["install_dbuser"] = "invoiceplane"
 br.form["install_dbpass"] = password
-br.form["install_dbname"] = "galette"
+br.form["install_dbname"] = "invoiceplane"
 br.submit()
 
 # Page 4 - confirmation that database correctly configured
