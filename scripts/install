@@ -210,9 +210,9 @@ fi
 #=================================================
 # Adapt invoicemail to yuno
 #=================================================
-
+ynh_print_info "Adapt invoiceplane to yuno "
 cp /var/www/invoiceplane/ipconfig.php.example /var/www/invoiceplane/ipconfig.php
-ynh_replace_string "IP_URL=" "IP_URL=$path_url" "$final_path/ipconfig.php"
+ynh_replace_string "IP_URL=" "IP_URL=https://$domain/$path_url" "$final_path/ipconfig.php"
 
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
