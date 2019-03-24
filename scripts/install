@@ -210,9 +210,20 @@ fi
 #=================================================
 # Adapt invoicemail to yuno
 #=================================================
+
 ynh_print_info "Adapt invoiceplane to yuno "
+
+### Change ipconfig's adresse
+
 cp /var/www/invoiceplane/ipconfig.php.example /var/www/invoiceplane/ipconfig.php
 ynh_replace_string "IP_URL=" "IP_URL=https://$domain/$path_url" "$final_path/ipconfig.php"
+
+###change htaccess http => https
+
+ynh_replace_string "#RewriteCond %{HTTPS} off" "RewriteCond %{HTTPS} off" "$final_path/htaccess"
+ynh_replace_string "#RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]" "RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]" "$final_path/htaccess"
+
+
 
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
