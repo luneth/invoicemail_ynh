@@ -1,6 +1,6 @@
 # InvoicePlane for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/invoiceplane_ynh.svg)](https://dash.yunohost.org/appci/app/invoice)  
+[![Integration level](https://dash.yunohost.org/integration/invoiceplane_ynh.svg)](https://dash.yunohost.org/appci/app/invoiceplane_ynh)  
 [![Install invoiceplane with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=invoiceplane_ynh)
 
 *[Lire ce readme en français.](./README_fr.md)*
