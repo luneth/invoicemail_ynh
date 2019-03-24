@@ -1,7 +1,7 @@
 # InvoicePlane for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/invoice)  
-[![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=invoiceplane_ynh)
+[![Integration level](https://dash.yunohost.org/integration/invoiceplane_ynh.svg)](https://dash.yunohost.org/appci/app/invoice)  
+[![Install invoiceplane with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=invoiceplane_ynh)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -22,7 +22,7 @@ source software without an income, there are no professional audits of the app y
 
 ## Demo
 
-* https://invoiceplane.com/demo
+* [Official demo](https://invoiceplane.com/demo)
 
 ## Configuration
 
