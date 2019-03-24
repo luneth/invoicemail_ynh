@@ -288,6 +288,21 @@ then
 	ynh_app_setting_set $app unprotected_uris "/"
 fi
 
+####################################################
+#        Call installer and fill the form          #
+####################################################
+
+ynh_print_info "Call installer and fill the form"
+
+# Install mechanize to have a browser in a python script
+sudo pip install mechanize
+
+# Then call python script to fill galette php installer with the right info
+sudo python initialConf.py $domain$path $db_pwd $admin $adminPass
+
+# Delete the install folder as advised by galette php installer
+# sudo rm -rf $final_path/install
+
 #=================================================
 # RELOAD NGINX
 #=================================================
