@@ -200,9 +200,6 @@ yunohost app ssowatconf
 # Reload Nginx
 systemctl reload nginx
 
-# Installation with curl
-ynh_print_info "Finalizing installation..."
-ynh_local_curl "/INSTALL_PATH" "key1=value1" "key2=value2" "key3=value3"
 
 # Remove the public access
 if [ $is_public -eq 0 ]
